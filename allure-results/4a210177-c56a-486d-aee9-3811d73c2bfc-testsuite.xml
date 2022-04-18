@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650311371452' stop='1650311589347'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1650311371453' status='broken' stop='1650311589343'>
+            <name>login after sign in</name>
+            <title>login after sign in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1650311371456' status='passed' stop='1650311373455'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7bfb031f-f278-42ad-aa61-0db68134003b-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650311371464' status='passed' stop='1650311371531'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='a947dcfe-691d-4a12-a53b-87c4d3f754f7-attachment.json' type='application/json' size='147'/>
+                                <attachment title='Response' source='5d8bc85c-0aeb-4cf1-82da-e8a0093185c3-attachment.json' type='application/json' size='1945'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650311371540' status='passed' stop='1650311371604'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='e94b094c-caab-4f05-b331-0f5e2472a796-attachment.json' type='application/json' size='37'/>
+                                <attachment title='Response' source='4536f8df-4117-4565-9384-0cf8a236cfcc-attachment.json' type='application/json' size='2029'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1650311589312' status='broken' stop='1650311589343'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9e0c0468-aa0c-460f-a721-6cd2ff65d94f-attachment.json' type='application/json' size='147'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650311589324' status='broken' stop='1650311589343'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='c810ade5-49b7-4118-a364-c990586cece2-attachment.json' type='application/json' size='104'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "My Login application login after sign in" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/administrator/repo-wdio-toped/test/specs/example.e2e.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "My Login application login after sign in" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/administrator/repo-wdio-toped/test/specs/example.e2e.js)
+                    at createTimeoutError (/Users/administrator/repo-wdio-toped/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/administrator/repo-wdio-toped/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/administrator/repo-wdio-toped/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

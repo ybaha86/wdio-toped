@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650308763426' stop='1650308763656'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1650308763426' status='passed' stop='1650308763653'>
+            <name>login after sign in</name>
+            <title>login after sign in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1650308763428' status='passed' stop='1650308763520'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='73472098-8ef9-4b9f-bf4f-b24aa064c224-attachment.json' type='application/json' size='85'/>
+                        <attachment title='Response' source='65806801-ebf6-4964-b329-a6e2b627619b-attachment.json' type='application/json' size='1967'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650308763530' status='passed' stop='1650308763582'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='93e6c1ac-95ad-4876-b765-0beedfd5b6dd-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='99e6b112-3c93-41bf-a2de-ca3a6762ba1c-attachment.json' type='application/json' size='1945'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650308763589' status='undefined'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='e0b422ad-8906-44ab-a5d7-5acff4bf6ac1-attachment.json' type='application/json' size='104'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650308763629' status='undefined'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='be9fe018-4f72-4390-b461-9bcf7e614657-attachment.json' type='application/json' size='37'/>
+                            </attachments>
+                            <steps>
+                                <step start='1650308763646' status='undefined'>
+                                    <name>POST /session/:sessionId/elements</name>
+                                    <title>POST /session/:sessionId/elements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='33d9977c-54eb-4e81-9153-c26730272310-attachment.json' type='application/json' size='63'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1650308763650' status='undefined'>
+                                            <name>POST /session/:sessionId/elements</name>
+                                            <title>POST /session/:sessionId/elements</title>
+                                            <attachments>
+                                                <attachment title='Request' source='e908a95f-8dc3-47c9-9640-3c112406c39e-attachment.json' type='application/json' size='85'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650308151098' stop='1650308270104'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1650308151099' status='broken' stop='1650308270099'>
+            <name>login after sign in</name>
+            <title>login after sign in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1650308151106' status='passed' stop='1650308151237'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4f339d43-e2d3-4672-9835-7a5df1c6f5f0-attachment.json' type='application/json' size='85'/>
+                        <attachment title='Response' source='bf966184-fd52-4c0d-a27e-3c43206c0488-attachment.json' type='application/json' size='1967'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650308151244' status='passed' stop='1650308151277'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4b24d78b-369a-4c75-bf24-f475aa9fad87-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='402cfb19-5097-4619-987c-74a2bec61d1d-attachment.json' type='application/json' size='1945'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650308172697' status='passed' stop='1650308174316'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e084efa5-fde8-4858-b124-0d9dfb3fc19c-attachment.json' type='application/json' size='46'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650308270081' status='broken' stop='1650308270099'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7a3dd991-c6d8-4f37-9117-a822970c42b6-attachment.json' type='application/json' size='85'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650308270087' status='broken' stop='1650308270099'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='1391e81b-fd5e-4727-8c3f-d8725dd0027e-attachment.json' type='application/json' size='63'/>
+                            </attachments>
+                            <steps>
+                                <step start='1650308270091' status='broken' stop='1650308270099'>
+                                    <name>POST /session/:sessionId/execute/sync</name>
+                                    <title>POST /session/:sessionId/execute/sync</title>
+                                    <attachments>
+                                        <attachment title='Request' source='1bac7729-7b37-45bb-a569-1e74db6f69d9-attachment.json' type='application/json' size='104'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "My Login application login after sign in" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/administrator/repo-wdio-toped/test/specs/example.e2e.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "My Login application login after sign in" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/administrator/repo-wdio-toped/test/specs/example.e2e.js)
+                    at createTimeoutError (/Users/administrator/repo-wdio-toped/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/administrator/repo-wdio-toped/node_modules/mocha/lib/runnable.js:431:10)
+                    at done (/Users/administrator/repo-wdio-toped/node_modules/mocha/lib/runnable.js:308:18)
+                    at /Users/administrator/repo-wdio-toped/node_modules/mocha/lib/runnable.js:371:11
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
