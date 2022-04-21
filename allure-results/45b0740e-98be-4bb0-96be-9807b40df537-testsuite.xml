@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650574596306' stop='1650574598848'>
+    <name>Login with Valid Credetial</name>
+    <title>Login with Valid Credetial</title>
+    <test-cases>
+        <test-case start='1650574596307' status='broken' stop='1650574598847'>
+            <name>Login to Udemy</name>
+            <title>Login to Udemy</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650574596308' status='passed' stop='1650574598579'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a750eb89-3b04-45cf-9d69-a8ec145ccf8e-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650574598579' status='passed' stop='1650574598847'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8843bc87-a9b7-4db2-8f20-0cd349dab28e-attachment.png' type='image/png' size='102196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>login.checkErrorMessage is not a function</message>
+                <stack-trace>TypeError: login.checkErrorMessage is not a function
+                    at Context.&lt;anonymous> (/Users/administrator/repo-wdio-toped/test/specs/login.e2e.js:23:48)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

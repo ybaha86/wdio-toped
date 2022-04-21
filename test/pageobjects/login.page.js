@@ -30,13 +30,27 @@ class LoginPage extends Page {
         await this.inputPassword.setValue(password);
         await this.btnSubmit.click();
     }
+    async checkElement () {
+        let elemUsername = await $('//input[@id="email--1"]');
+        let elemPassword = await $('//input[@id="id_password"]');
+        let elemBtnSubmit = await $('//input[@id="submit-id-submit"]');
+        if (elemUsername.isExisting() && elemPassword.isExisting() && elemBtnSubmit.isExisting()) {
+            return true;
+        }
+    }
+    async checkErrorMessage () {
+        let elemMessage = await $('//div[@id="error-alert"]');
+        if (elemMessage.isExisting()){
+            return true;
+        }
+    }
 
     /**
      * overwrite specific options to adapt it to page object
      */
     open () {
         //return super.open('join/login-popup/');
-        return super.open();
+        return super.open('join/login-popup/');
     }
 
     openPage(){

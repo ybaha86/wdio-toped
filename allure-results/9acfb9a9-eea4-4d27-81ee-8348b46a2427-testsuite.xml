@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650407563586' stop='1650407566120'>
+    <name>Searching with defined keyword</name>
+    <title>Searching with defined keyword</title>
+    <test-cases>
+        <test-case start='1650407563587' status='broken' stop='1650407566118'>
+            <name>Searching Selenium Webdriver</name>
+            <title>Searching Selenium Webdriver</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650407563590' status='passed' stop='1650407565521'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='29fb3be1-7803-4936-b228-92c910ea9ec8-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650407563624' status='passed' stop='1650407563709'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='aa482a66-f186-414b-86a6-ee5f27a274c1-attachment.json' type='application/json' size='78'/>
+                                <attachment title='Response' source='30b6c574-e3f1-40d0-bbed-d2e051be180c-attachment.json' type='application/json' size='1946'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650407563715' status='passed' stop='1650407563749'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='f73b48ab-3b04-41d9-84f5-7754a0780966-attachment.json' type='application/json' size='37'/>
+                                <attachment title='Response' source='a403dad3-a16d-4f09-895c-db3e364e161f-attachment.json' type='application/json' size='1961'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1650407565523' status='passed' stop='1650407566117'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='805b16d1-1dcf-4885-bdc4-5d63022d7c8e-attachment.png' type='image/png' size='686573'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Callback must be a function. Received 10</message>
+                <stack-trace>TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received 10
+                    at setTimeout (timers.js:134:3)
+                    at Context.&lt;anonymous> (/Users/administrator/repo-wdio-toped/test/specs/example.e2e.js:17:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650403840425' stop='1650403840525'>
+    <name>Verify Result Selenium Webbdrive</name>
+    <title>Verify Result Selenium Webbdrive</title>
+    <test-cases>
+        <test-case start='1650403840425' status='passed' stop='1650403840524'>
+            <name>Verify result</name>
+            <title>Verify result</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1650403840425' status='passed' stop='1650403840524'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='01d0f6db-af7e-452d-abe2-94feec573ac1-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650407701991' stop='1650407702334'>
+    <name>Searching with defined keyword</name>
+    <title>Searching with defined keyword</title>
+    <test-cases>
+        <test-case start='1650407701991' status='broken' stop='1650407702332'>
+            <name>Searching Selenium Webdriver</name>
+            <title>Searching Selenium Webdriver</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650407701994' status='broken' stop='1650407702332'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7a9e84fe-0c20-483c-b256-88f3013862fd-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650407702024' status='passed' stop='1650407702102'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='24127319-e7be-42ab-8619-c417af5e7217-attachment.json' type='application/json' size='78'/>
+                                <attachment title='Response' source='87ef36b5-0b59-4ca9-8568-a56f52e3f07f-attachment.json' type='application/json' size='1946'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650407702109' status='passed' stop='1650407702330'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='044602ae-9692-4d94-862e-325a14951539-attachment.png' type='image/png' size='15527'/>
+                            </attachments>
+                            <steps>
+                                <step start='1650407702111' status='passed' stop='1650407702140'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='d239de82-46ca-44c8-8974-d6c19900dd53-attachment.json' type='application/json' size='37'/>
+                                        <attachment title='Response' source='342e9d5e-8a21-4e6a-aa01-5f0f5561fb2f-attachment.json' type='application/json' size='1961'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.url(...).setTimeout is not a function</message>
+                <stack-trace>TypeError: browser.url(...).setTimeout is not a function
+                    at Context.&lt;anonymous> (/Users/administrator/repo-wdio-toped/test/specs/example.e2e.js:16:53)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
